@@ -1,7 +1,7 @@
 from deportista import Deportista
 from persona import Persona
 
-class Futbolista:
+class Futbolista(Deportista,Persona):
 
     futbolistas = []
 
